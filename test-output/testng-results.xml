@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="1" total="14" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Carwale Project" duration-ms="0" started-at="2016-03-07T14:35:59Z" finished-at="2016-03-07T14:35:59Z">
+    <groups>
+    </groups>
+  </suite> <!-- Carwale Project -->
+  <suite name="Sell cars" duration-ms="120" started-at="2016-03-07T14:35:58Z" finished-at="2016-03-07T14:35:58Z">
+    <groups>
+    </groups>
+    <test name="LocateDealer" duration-ms="3" started-at="2016-03-07T14:35:58Z" finished-at="2016-03-07T14:35:58Z">
+      <class name="com.gktech.sellcars.LocateDealer">
+        <test-method status="SKIP" signature="checkTestCaseSkip()[pri:0, instance:com.gktech.sellcars.LocateDealer@629f0666]" name="checkTestCaseSkip" is-config="true" duration-ms="0" started-at="2016-03-07T20:05:58Z" finished-at="2016-03-07T20:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCaseSkip -->
+        <test-method status="SKIP" signature="locateDealer(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.sellcars.LocateDealer@629f0666]" name="locateDealer" duration-ms="0" started-at="2016-03-07T20:05:58Z" data-provider="getData" finished-at="2016-03-07T20:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateDealer -->
+        <test-method status="SKIP" signature="locateDealer(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.sellcars.LocateDealer@629f0666]" name="locateDealer" duration-ms="1" started-at="2016-03-07T20:05:58Z" data-provider="getData" finished-at="2016-03-07T20:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateDealer -->
+        <test-method status="SKIP" signature="locateDealer(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.sellcars.LocateDealer@629f0666]" name="locateDealer" duration-ms="0" started-at="2016-03-07T20:05:58Z" data-provider="getData" finished-at="2016-03-07T20:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Govardhan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateDealer -->
+        <test-method status="SKIP" signature="locateDealer(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.sellcars.LocateDealer@629f0666]" name="locateDealer" duration-ms="0" started-at="2016-03-07T20:05:58Z" data-provider="getData" finished-at="2016-03-07T20:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bandaru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[learning123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateDealer -->
+      </class> <!-- com.gktech.sellcars.LocateDealer -->
+    </test> <!-- LocateDealer -->
+    <test name="SearchCar" duration-ms="87" started-at="2016-03-07T14:35:58Z" finished-at="2016-03-07T14:35:58Z">
+      <class name="com.gktech.sellcars.SearchCar">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.gktech.sellcars.SearchCar@5f150435]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2016-03-07T20:05:58Z" finished-at="2016-03-07T20:05:58Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of the sellcars suite is set as no, so skipping sellcars suite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of the sellcars suite is set as no, so skipping sellcars suite
+	at com.gktech.sellcars.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="SKIP" signature="checkTestCaseSkip()[pri:0, instance:com.gktech.sellcars.SearchCar@5f150435]" name="checkTestCaseSkip" is-config="true" duration-ms="0" started-at="2016-03-07T20:05:58Z" finished-at="2016-03-07T20:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCaseSkip -->
+        <test-method status="FAIL" signature="SearchCar(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.sellcars.SearchCar@5f150435]" name="SearchCar" duration-ms="85" started-at="2016-03-07T20:05:58Z" data-provider="getData" finished-at="2016-03-07T20:05:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 5 parameters but the method com.gktech.sellcars.SearchCar#SearchCar takes 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 5 parameters but the method com.gktech.sellcars.SearchCar#SearchCar takes 2
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1337)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1225)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchCar -->
+      </class> <!-- com.gktech.sellcars.SearchCar -->
+    </test> <!-- SearchCar -->
+  </suite> <!-- Sell cars -->
+  <suite name="New cars" duration-ms="168854" started-at="2016-03-07T14:33:09Z" finished-at="2016-03-07T14:35:57Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="87866" started-at="2016-03-07T14:33:09Z" finished-at="2016-03-07T14:34:36Z">
+      <class name="com.gktech.newcars.Login">
+        <test-method status="PASS" signature="checkTestCaseSkip()[pri:0, instance:com.gktech.newcars.Login@768debd]" name="checkTestCaseSkip" is-config="true" duration-ms="3" started-at="2016-03-07T20:03:09Z" finished-at="2016-03-07T20:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCaseSkip -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Login@768debd]" name="login" duration-ms="40439" started-at="2016-03-07T20:03:09Z" data-provider="getData" finished-at="2016-03-07T20:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Govardhan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Login@768debd]" name="login" duration-ms="0" started-at="2016-03-07T20:03:49Z" data-provider="getData" finished-at="2016-03-07T20:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of the test data is set as no, so skipping rownumber: 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 1
+	at com.gktech.newcars.Login.login(Login.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Login@768debd]" name="login" duration-ms="47359" started-at="2016-03-07T20:03:49Z" data-provider="getData" finished-at="2016-03-07T20:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Login@768debd]" name="login" duration-ms="0" started-at="2016-03-07T20:04:36Z" data-provider="getData" finished-at="2016-03-07T20:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bandaru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[learning123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of the test data is set as no, so skipping rownumber: 3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of the test data is set as no, so skipping rownumber: 3
+	at com.gktech.newcars.Login.login(Login.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.gktech.newcars.Login -->
+    </test> <!-- Login -->
+    <test name="Registration" duration-ms="80871" started-at="2016-03-07T14:34:37Z" finished-at="2016-03-07T14:35:57Z">
+      <class name="com.gktech.newcars.Registration">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="checkSuiteSkip" is-config="true" duration-ms="2852" started-at="2016-03-07T20:03:06Z" finished-at="2016-03-07T20:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestCaseskip()[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="checkTestCaseskip" is-config="true" duration-ms="8" started-at="2016-03-07T20:04:37Z" finished-at="2016-03-07T20:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestCaseskip -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="registration" duration-ms="38473" started-at="2016-03-07T20:04:37Z" data-provider="getData" finished-at="2016-03-07T20:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Govardhan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[govardhan@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[88888888888]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="registration" duration-ms="42339" started-at="2016-03-07T20:05:15Z" data-provider="getData" finished-at="2016-03-07T20:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karnati@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="SKIP" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="registration" duration-ms="1" started-at="2016-03-07T20:05:57Z" data-provider="getData" finished-at="2016-03-07T20:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karnati@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of the test data is set as no, so skipping row number: 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of the test data is set as no, so skipping row number: 2
+	at com.gktech.newcars.Registration.registration(Registration.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="SKIP" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="registration" duration-ms="0" started-at="2016-03-07T20:05:57Z" data-provider="getData" finished-at="2016-03-07T20:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karnati@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of the test data is set as no, so skipping row number: 4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of the test data is set as no, so skipping row number: 4
+	at com.gktech.newcars.Registration.registration(Registration.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="SKIP" signature="registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gktech.newcars.Registration@17ed40e0]" name="registration" duration-ms="0" started-at="2016-03-07T20:05:57Z" data-provider="getData" finished-at="2016-03-07T20:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnati]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karnati@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testing123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of the test data is set as no, so skipping row number: 3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of the test data is set as no, so skipping row number: 3
+	at com.gktech.newcars.Registration.registration(Registration.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- com.gktech.newcars.Registration -->
+    </test> <!-- Registration -->
+  </suite> <!-- New cars -->
+</testng-results>

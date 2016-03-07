@@ -1,0 +1,72 @@
+package com.gktech.util;
+
+public class TestUtil {
+	//to get runmode of the test suite
+	public static boolean isSuiteRunnable(XLS_Reader xls, String suiteName){
+		boolean isExecutable=false;
+		for(int i=2;i<=xls.getRowCount("Testsuites");i++){
+			String suite=xls.getCellData("Testsuites", "TSID", i);
+			String runmode=xls.getCellData("Testsuites", "Runmode", i);
+			System.out.println(suite+"==="+runmode);
+			if(suite.equalsIgnoreCase(suiteName)){
+				if(runmode.equalsIgnoreCase("Y")){
+					isExecutable=true;
+				}
+			}
+		}
+		return isExecutable;		
+	}
+	
+	//to get the test case runmode
+	public static boolean isTestCaseRunnable(XLS_Reader xls, String testcaseName){
+		boolean isExecutable=false;
+		for(int i=2;i<=xls.getRowCount("Testcases");i++){
+			String testcase=xls.getCellData("Testcases", "TCID", i);
+			String runmode=xls.getCellData("Testcases", "Runmode", i);
+			System.out.println(testcase+"==="+runmode);
+			if(testcase.equalsIgnoreCase(testcaseName)){
+				if(runmode.equalsIgnoreCase("Y")){
+					isExecutable=true;
+				}
+			}
+		}
+		return isExecutable;		
+	}
+	//to get the test data runmodes
+	public static String[] getTestDataRunmodes(XLS_Reader xls, String sheetName){
+		String[] runmodes;
+		if(!xls.isSheetExist(sheetName)){
+			System.out.println("Sheet not found");
+		}
+		//size declaration
+		runmodes=new String[xls.getRowCount(sheetName)-1];
+		System.out.println("Total rows: "+xls.getRowCount(sheetName));
+		//values declaration
+		for(int i=2;i<=xls.getRowCount(sheetName);i++){
+			System.out.println(xls.getCellData(sheetName, "Runmode", i));
+			runmodes[i-2]=xls.getCellData(sheetName, "Runmode", i);
+		}
+		return runmodes;
+	}
+	//to get the test data from the excel file:
+	public static Object[][] getTestData(XLS_Reader xls, String sheetName){
+		if(!xls.isSheetExist(sheetName)){
+			System.out.println("Sheet Not found");
+		}
+		int rows=xls.getRowCount(sheetName);
+		int cols=xls.getColumnCount(sheetName);
+		//size declaration
+		Object[][] data=new Object[rows-1][cols-1];
+		//values declaration
+		for(int rowNum=2;rowNum<=rows;rowNum++){
+			for(int colNum=0;colNum<=cols-2;colNum++){
+				System.out.print(xls.getCellData(sheetName, colNum, rowNum)+"===");
+				data[rowNum-2][colNum]=xls.getCellData(sheetName, colNum, rowNum);
+			}
+			System.out.println();
+		}
+		return data;
+		
+	}
+
+}
